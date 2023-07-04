@@ -25,7 +25,7 @@ const Works = () => {
     };
 
     return (
-        <div>
+        <div >
             <div className="work__filters">
                 {projectsNav.map((item, index) => {
                     return (

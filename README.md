@@ -1,1 +1,1 @@
-Still in process, content is from the tamplate, not mine
+Still in the process, content is from the template, not mine

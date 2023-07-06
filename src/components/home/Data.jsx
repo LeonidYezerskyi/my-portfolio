@@ -54,7 +54,10 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Fullstack Developer</h3>
-            <p className="home__description">I am fullstack developer based in Kyiv, Ukraine, and I am passionate and dedicated to my work.</p>
+            <p className="home__description">I am a Junior JavaScript Full Stack Developer based in Kyiv, Ukraine. I like to work for hours and hours and to focus on different tasks. I always
+                say - it is important to challenge yourself, and to enjoy it no matter how difficult it can be.
+                Therefore, I am up for any challenge.
+                Let's creacte a better world together.</p>
 
             <a href="#contact" className="button button--flex">
                 Say Hello

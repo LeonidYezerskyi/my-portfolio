@@ -21,7 +21,10 @@
 }
 
 .home__social-icon:hover {
-  color: var(--title-color-dark);
+  color: white;
+  background-color: gray;
+  padding: 0 3px 0 3px;
+  border-radius: 6px;
 }
 
 .home__title {

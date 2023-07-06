@@ -38,13 +38,12 @@ const Qualification = () => {
                         : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Web Design</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <h3 className="qualification__title">Fullstack Developer</h3>
+                                <span className="qualification__subtitle">IT School GoIT (Kyiv)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2022-2023
                                 </div>
                             </div>
-
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
@@ -60,43 +59,26 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Art Director</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <h3 className="qualification__title">Master of Journalism</h3>
+                                <span className="qualification__subtitle">Zaporizhzhya National University</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                                    <i className="uil uil-calendar-alt"></i> 2008-2009
                                 </div>
                             </div>
                         </div>
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Web Development</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <h3 className="qualification__title">Bachelor of Journalism, Publishing and Editing</h3>
+                                <span className="qualification__subtitle">Mykolaiv State University</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                                    <i className="uil uil-calendar-alt"></i> 2004-2008
                                 </div>
                             </div>
 
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
-                            </div>
-                        </div>
-
-                        <div className="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 className="qualification__title">UX Expert</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
-                                <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2017 - 2018
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -106,10 +88,10 @@ const Qualification = () => {
                         : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Product Designer</h3>
-                                <span className="qualification__subtitle">Microsoft - Spain</span>
+                                <h3 className="qualification__title">Full Stack Developer</h3>
+                                <span className="qualification__subtitle">Freelance (Kyiv, Ukraine)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2021 - Present
+                                    <i className="uil uil-calendar-alt"></i> 01.04.2023 - Present
                                 </div>
                             </div>
 
@@ -128,26 +110,45 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">UX Designer</h3>
-                                <span className="qualification__subtitle">Apple Inc - Spain</span>
+                                <h3 className="qualification__title">Merchandiser</h3>
+                                <span className="qualification__subtitle">“Heinemann Duty Free” (Germany), location of work - "Kyiv" International Airport (Kyiv, Ukraine)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                                    <i className="uil uil-calendar-alt"></i> 20.05.2021-24.02.2022
                                 </div>
                             </div>
                         </div>
 
+
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Web Designer</h3>
-                                <span className="qualification__subtitle">Figma - Spain</span>
+                                <h3 className="qualification__title">Traveler</h3>
+                                <span className="qualification__subtitle">Self employed (25 countries)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                                    <i className="uil uil-calendar-alt"></i> 7.10.2016 – 20.12.2019
                                 </div>
                             </div>
 
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">Editor, chief of “news/capital” department</h3>
+                                <span className="qualification__subtitle">Newspaper “Gazeta po-ukrainsky”, magazine “Kraina”, site “gazeta.ua” (Kyiv, Ukraine)</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> 1.04.2010 – 15.04.2016
+                                </div>
                             </div>
                         </div>
 

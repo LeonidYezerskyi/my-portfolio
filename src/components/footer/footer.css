@@ -19,6 +19,7 @@
 
 .footer__link:hover {
   color: var(--title-color-dark);
+  border-bottom: 1px solid #000;
 }
 
 .footer__list {

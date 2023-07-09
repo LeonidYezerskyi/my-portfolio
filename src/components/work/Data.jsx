@@ -17,6 +17,7 @@ export const projectsData = [
         title: "Cocktails",
         category: "team project",
         url: "https://yulenyka.github.io/cocktails-project/",
+        urlGit: "https://github.com/LeonidYezerskyi/cocktails-project",
     },
     {
         id: 4,
@@ -24,6 +25,7 @@ export const projectsData = [
         title: "Pets",
         category: "team project",
         url: "https://pets.tryapi.site/",
+        urlGit: "https://github.com/LeonidYezerskyi/pets_project_client"
     },
     {
         id: 1,
@@ -31,6 +33,7 @@ export const projectsData = [
         title: "Phonebook",
         category: "single project",
         url: "https://leonidyezerskyi.github.io/goit-react-hw-08-phonebook",
+        urlGit: "https://github.com/LeonidYezerskyi/goit-react-hw-08-phonebook"
     },
     {
         id: 2,
@@ -38,6 +41,7 @@ export const projectsData = [
         title: "FoodSta",
         category: "team project",
         url: "https://anatoliifedorenko.github.io/BroGrammers_project/",
+        urlGit: "https://github.com/LeonidYezerskyi/BroGrammers_project"
     },
     {
         id: 5,
@@ -45,6 +49,7 @@ export const projectsData = [
         title: "Web Studio",
         category: "single project",
         url: "https://leonidyezerskyi.github.io/goit-markup-hw-08/",
+        urlGit: "https://github.com/LeonidYezerskyi/goit-markup-hw-08"
 
     },
     {
@@ -53,6 +58,7 @@ export const projectsData = [
         title: "Movie Search",
         category: "single project",
         url: "https://leonidyezerskyi.github.io/goit-react-hw-05-movies/",
+        urlGit: "https://github.com/LeonidYezerskyi/goit-react-hw-05-movies"
 
     },
     {
@@ -61,6 +67,7 @@ export const projectsData = [
         title: "Finance Ledger",
         category: "single project",
         url: "https://leonidyezerskyi.github.io/finance-ledger-test/",
+        urlGit: "https://github.com/LeonidYezerskyi/finance-ledger-test"
 
     },
     {
@@ -69,6 +76,7 @@ export const projectsData = [
         title: "Tweets",
         category: "single project",
         url: "https://tweets-project-test.netlify.app/",
+        urlGit: "https://github.com/LeonidYezerskyi/tweets-project"
     },
     {
         id: 9,
@@ -76,6 +84,7 @@ export const projectsData = [
         title: "GPT-3",
         category: "single project",
         url: "https://gpt3-project-client.netlify.app/",
+        urlGit: "https://github.com/LeonidYezerskyi/gpt3-project-client"
     },
 ];
 

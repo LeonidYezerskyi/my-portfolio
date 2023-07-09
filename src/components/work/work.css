@@ -31,7 +31,10 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
-  /* background-color: rgb(255, 255, 255); */
+}
+
+.work__card:hover {
+  border-color: rgba(112, 245, 3, 0.68);
 }
 
 .work__img {
@@ -45,6 +48,24 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+}
+
+.work__button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work__button-container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0 10px;
+  background-color: var(--body-color);
+}
+
+.work__button-container:hover {
+  border: 1px solid rgba(112, 245, 3, 0.68);
+  background-color: var(--body-color);
 }
 
 .work__button {

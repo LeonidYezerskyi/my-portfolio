@@ -12,13 +12,25 @@
   margin-bottom: var(--mb-1-5);
 }
 
+.contact__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact__info {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+  gap: 1rem;
+  /* display: grid;
   row-gap: 1rem;
-  grid-template-columns: 300px;
+  grid-template-columns: 300px; */
 }
 
 .contact__card {
+  width: 230px;
   border-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -112,6 +124,11 @@
 @media screen and (max-width: 992px) {
   .contact__container {
     column-gap: 3rem;
+  }
+  .contact__info {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2, max-content);
   }
 }
 

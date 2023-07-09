@@ -69,6 +69,10 @@
     height: var(--header-height);
   }
 
+  .nav__link:hover {
+    border-bottom: none;
+  }
+
   .nav__menu {
     position: fixed;
     bottom: -100%;

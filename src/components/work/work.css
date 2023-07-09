@@ -22,7 +22,6 @@
 
 .work__container {
   grid-template-columns: repeat(3, max-content);
-  gap: 2rem;
   justify-content: center;
 }
 
@@ -38,7 +37,7 @@
 }
 
 .work__img {
-  width: 295px;
+  width: 265px;
   /* height: 204px; */
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
@@ -94,6 +93,7 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .work__container {
+    grid-template-columns: repeat(2, max-content);
     gap: 1.25rem;
   }
 
@@ -102,6 +102,7 @@
   }
 
   .work__img {
+    width: 245px;
     margin-bottom: 0.75rem;
   }
 

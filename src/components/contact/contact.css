@@ -38,6 +38,21 @@
   text-align: center;
 }
 
+.contact__card:hover {
+  border-color: rgba(112, 245, 3, 0.68);
+}
+
+.contact__button-container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0 55px;
+  background-color: var(--body-color);
+}
+
+.contact__button-container:hover {
+  border: 1px solid rgba(112, 245, 3, 0.68);
+}
+
 .contact__card-icon {
   font-size: 2rem;
   color: var(--title-color);

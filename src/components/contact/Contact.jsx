@@ -18,28 +18,36 @@ const Contact = () => {
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">leonid.yezerskyi@gmail.com</span>
-                            <a href="mailto:leonid.yezerskyi@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <button className="contact__button-container">
+                                <a href="mailto:leonid.yezerskyi@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            </button>
                         </div>
 
                         <div className="contact__card">
                             <i className="bx bxl-telegram contact__card-icon"></i>
                             <h3 className="contact__card-title">Telegram</h3>
                             <span className="contact__card-data">+38(097)989-80-12</span>
-                            <a href="https://t.me/LeonidYezerskyi" className="contact__button" target="blank" rel="noreferrer">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <button className="contact__button-container">
+                                <a href="https://t.me/LeonidYezerskyi" className="contact__button" target="blank" rel="noreferrer">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            </button>
                         </div>
 
                         <div className="contact__card">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">+38(097)989-80-12</span>
-                            <a href="https://api.whatsapp.com/send?phone=+380979898012&text=Hello, more information!" className="contact__button" target="blank" rel="noreferrer">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <button className="contact__button-container">
+                                <a href="https://api.whatsapp.com/send?phone=+380979898012&text=Hello, more information!" className="contact__button" target="blank" rel="noreferrer">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            </button>
                         </div>
 
                         <div className="contact__card">
                             <i className="bx bxl-linkedin contact__card-icon"></i>
                             <h3 className="contact__card-title">Linkedin</h3>
                             <span className="contact__card-data">Leonid Yezerskyi</span>
-                            <a href="https://www.linkedin.com/in/leonid-yezerskyi/message" className="contact__button" target="blank" rel="noreferrer">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <button type="button" className="contact__button-container">
+                                <a href="https://www.linkedin.com/in/leonid-yezerskyi/message" className="contact__button" target="blank" rel="noreferrer">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            </button>
                         </div>
                     </div>
                 </div>

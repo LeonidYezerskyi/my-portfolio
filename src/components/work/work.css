@@ -65,7 +65,6 @@
 
 .work__button-container:hover {
   border: 1px solid rgba(112, 245, 3, 0.68);
-  background-color: var(--body-color);
 }
 
 .work__button {

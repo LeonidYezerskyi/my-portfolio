@@ -13,11 +13,23 @@ const Works = () => {
             setProjects(projectsData);
         } else {
             const newProjects = projectsData.filter((project) => {
-                return project.category.toLowerCase() === item.name;
+                if (item.name === 'single project') {
+                    return (
+                        project.category.includes('single project')
+                    );
+                } else if (item.name === 'team project') {
+                    return (
+                        project.category.includes('team project')
+                    );
+                } else if (item.name === 'backend') {
+                    return (
+                        project.category.includes('backend')
+                    );
+                }
             });
             setProjects(newProjects);
         }
-    }, [item])
+    }, [item]);
 
     const handleClick = (e, index) => {
         setItem({ name: e.target.textContent.toLowerCase() });
@@ -25,29 +37,31 @@ const Works = () => {
     };
 
     return (
-        <div >
+        <div>
             <div className="work__filters">
                 {projectsNav.map((item, index) => {
                     return (
                         <span
                             onClick={(e) => {
-                                handleClick(e, index)
+                                handleClick(e, index);
                             }}
-                            className={`${active === index ? "active-work" : ""} work__item`}
-                            key={index}>
+                            className={`${active === index ? 'active-work' : ''} work__item`}
+                            key={index}
+                        >
                             {item.name}
                         </span>
-                    )
+                    );
                 })}
             </div>
 
             <div className="work__container container grid">
                 {projects.map((item) => {
-                    return <WorkItems item={item} key={item.id} />
+                    return <WorkItems item={item} key={item.id} />;
                 })}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Works
+export default Works;
+

@@ -7,8 +7,9 @@ import Work6 from "../../assets/work6.jpg";
 import Work7 from "../../assets/work7.jpg";
 import Work8 from "../../assets/work8.jpg";
 import Work9 from "../../assets/work9.jpg";
-
-
+import Work10 from "../../assets/work10.jpg";
+import Work11 from "../../assets/work11.jpg";
+import Work12 from "../../assets/work12.jpg";
 
 export const projectsData = [
     {
@@ -86,6 +87,30 @@ export const projectsData = [
         url: "https://gpt3-project-client.netlify.app/",
         urlGit: "https://github.com/LeonidYezerskyi/gpt3-project-client"
     },
+    {
+        id: 10,
+        image: Work10,
+        title: "Pets-server",
+        category: "team project backend",
+        url: "https://github.com/LeonidYezerskyi/pets_project_api",
+        urlGit: "https://github.com/LeonidYezerskyi/pets_project_api"
+    },
+    {
+        id: 11,
+        image: Work11,
+        title: "User-structure-server",
+        category: "single project backend",
+        url: "https://github.com/LeonidYezerskyi/user-structure-app-server",
+        urlGit: "https://github.com/LeonidYezerskyi/user-structure-app-server"
+    },
+    {
+        id: 12,
+        image: Work12,
+        title: "Homework-REST-API",
+        category: "single project backend",
+        url: "https://github.com/LeonidYezerskyi/nodejs-homework-REST-API",
+        urlGit: "https://github.com/LeonidYezerskyi/nodejs-homework-REST-API"
+    },
 ];
 
 export const projectsNav = [
@@ -97,6 +122,9 @@ export const projectsNav = [
     },
     {
         name: 'team project',
+    },
+    {
+        name: 'backend',
     },
 
 ]

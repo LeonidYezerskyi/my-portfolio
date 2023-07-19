@@ -87,6 +87,13 @@
   transform: translateX(0.25rem);
 }
 
+.work_btn-load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
 .active-work {
   background-color: var(--title-color);
   color: var(--container-color);

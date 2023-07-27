@@ -10,6 +10,9 @@ import Work9 from "../../assets/work9.jpg";
 import Work10 from "../../assets/work10.jpg";
 import Work11 from "../../assets/work11.jpg";
 import Work12 from "../../assets/work12.jpg";
+import Work13 from "../../assets/work13.jpg";
+import Work14 from "../../assets/work14.jpg";
+import Work15 from "../../assets/work15.jpg";
 
 export const projectsData = [
     {
@@ -110,6 +113,30 @@ export const projectsData = [
         category: "single project backend",
         url: "https://github.com/LeonidYezerskyi/nodejs-homework-REST-API",
         urlGit: "https://github.com/LeonidYezerskyi/nodejs-homework-REST-API"
+    },
+    {
+        id: 13,
+        image: Work13,
+        title: "Photomap",
+        category: "single project",
+        url: "https://expo.dev/@leonidyezer/goit-react-native-homework",
+        urlGit: "https://github.com/LeonidYezerskyi/goit-react-native-homework"
+    },
+    {
+        id: 14,
+        image: Work14,
+        title: "Furr-app",
+        category: "single project",
+        url: "https://expo.dev/@leonidyezer/furr-app",
+        urlGit: "https://github.com/LeonidYezerskyi/furr-app"
+    },
+    {
+        id: 15,
+        image: Work15,
+        title: "Wallet (Finance App)",
+        category: "team project",
+        url: "https://andrii-petlovanyi.github.io/walletX/login",
+        urlGit: "https://github.com/LeonidYezerskyi/walletX"
     },
 ];
 

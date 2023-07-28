@@ -24,6 +24,14 @@ export const projectsData = [
         urlGit: "https://github.com/LeonidYezerskyi/cocktails-project",
     },
     {
+        id: 15,
+        image: Work15,
+        title: "Wallet (Finance App)",
+        category: "team project",
+        url: "https://andrii-petlovanyi.github.io/walletX/login",
+        urlGit: "https://github.com/LeonidYezerskyi/walletX"
+    },
+    {
         id: 4,
         image: Work4,
         title: "Pets",
@@ -129,14 +137,6 @@ export const projectsData = [
         category: "single project",
         url: "https://expo.dev/@leonidyezer/furr-app",
         urlGit: "https://github.com/LeonidYezerskyi/furr-app"
-    },
-    {
-        id: 15,
-        image: Work15,
-        title: "Wallet (Finance App)",
-        category: "team project",
-        url: "https://andrii-petlovanyi.github.io/walletX/login",
-        urlGit: "https://github.com/LeonidYezerskyi/walletX"
     },
 ];
 

@@ -13,6 +13,8 @@ import Work12 from "../../assets/work12.jpg";
 import Work13 from "../../assets/work13.jpg";
 import Work14 from "../../assets/work14.jpg";
 import Work15 from "../../assets/work15.jpg";
+import Work16 from "../../assets/work16.jpg";
+import Work17 from "../../assets/work17.jpg";
 
 export const projectsData = [
     {
@@ -56,6 +58,14 @@ export const projectsData = [
         urlGit: "https://github.com/LeonidYezerskyi/BroGrammers_project"
     },
     {
+        id: 16,
+        image: Work16,
+        title: "New Post",
+        category: "single project",
+        url: "https://new-post-app.netlify.app/",
+        urlGit: "https://github.com/LeonidYezerskyi/new-post-app",
+    },
+    {
         id: 5,
         image: Work5,
         title: "Web Studio",
@@ -97,6 +107,14 @@ export const projectsData = [
         category: "single project",
         url: "https://gpt3-project-client.netlify.app/",
         urlGit: "https://github.com/LeonidYezerskyi/gpt3-project-client"
+    },
+    {
+        id: 17,
+        image: Work17,
+        title: "Crypto wallet",
+        category: "single project",
+        url: "https://my-crypto-wallet-app.netlify.app/",
+        urlGit: "https://github.com/LeonidYezerskyi/my-wallet-app"
     },
     {
         id: 10,

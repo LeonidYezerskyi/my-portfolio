@@ -15,6 +15,7 @@ import Work14 from "../../assets/work14.jpg";
 import Work15 from "../../assets/work15.jpg";
 import Work16 from "../../assets/work16.jpg";
 import Work17 from "../../assets/work17.jpg";
+import Work18 from "../../assets/work18.jpg";
 
 export const projectsData = [
     {
@@ -32,6 +33,14 @@ export const projectsData = [
         category: "team project",
         url: "https://andrii-petlovanyi.github.io/walletX/login",
         urlGit: "https://github.com/LeonidYezerskyi/walletX"
+    },
+    {
+        id: 18,
+        image: Work18,
+        title: "Pets Gallery",
+        category: "single project",
+        url: "https://petpaws-app.netlify.app/",
+        urlGit: "https://github.com/LeonidYezerskyi/pets-paw"
     },
     {
         id: 4,

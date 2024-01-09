@@ -16,8 +16,17 @@ import Work15 from "../../assets/work15.jpg";
 import Work16 from "../../assets/work16.jpg";
 import Work17 from "../../assets/work17.jpg";
 import Work18 from "../../assets/work18.jpg";
+import Work19 from "../../assets/work19.jpg";
 
 export const projectsData = [
+    {
+        id: 19,
+        image: Work19,
+        title: "CafeTobi",
+        category: "single project",
+        url: "https://www.sushi-tobi.co.ua",
+        urlGit: "",
+    },
     {
         id: 3,
         image: Work3,

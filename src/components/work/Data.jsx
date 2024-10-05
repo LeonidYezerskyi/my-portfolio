@@ -17,6 +17,7 @@ import Work16 from "../../assets/work16.jpg";
 import Work17 from "../../assets/work17.jpg";
 import Work18 from "../../assets/work18.jpg";
 import Work19 from "../../assets/work19.jpg";
+import Work20 from "../../assets/work20.jpg";
 
 export const projectsData = [
     {
@@ -25,7 +26,15 @@ export const projectsData = [
         title: "CafeTobi",
         category: "single project",
         url: "https://www.sushi-tobi.co.ua",
-        urlGit: "",
+        // urlGit: "",
+    },
+    {
+        id: 20,
+        image: Work20,
+        title: "Card Real Estate",
+        category: "single project",
+        url: "https://card.realestate/",
+        // urlGit: "",
     },
     {
         id: 3,
@@ -56,7 +65,7 @@ export const projectsData = [
         image: Work4,
         title: "Pets",
         category: "team project",
-        url: "https://pets.tryapi.site/",
+        url: "https://pets-project-client.vercel.app/",
         urlGit: "https://github.com/LeonidYezerskyi/pets_project_client"
     },
     {

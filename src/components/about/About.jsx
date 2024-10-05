@@ -12,12 +12,12 @@ const About = () => {
                 <img src={AboutImg} alt="" className="about__img" />
                 <div className="about__data">
                     {/* <Info /> */}
-                    <p className="about__description">I am a Junior Full Stack Developer. The main technology stack that I specialize in includes: HTML5, CSS3, JavaScript, React, Redux, Next.js, Node.js, Express, MongoDB, and React Native.
+                    <p className="about__description">I am a Junior Full Stack Developer. The main technology stack that I specialize in includes: HTML, CSS, JavaScript, React, Redux, Next.js, Tailwind, TypeScript, Node.js/Express,
+                        MongoDB, PostgreSQL, Neon DB, Supabase, Strapi, Payload CMS, React Native, Clerk Auth, OpenAI, Paddle, LiqPay.
                         I have an experience working on both individual and team projects as a full stack developer. <br />
-                        In general, I have a strong inclination to become deeply interested and engrossed in things. Once such interest is sparked, it doesn't leave me in peace until I have achieved a profound understanding and gained immersive experience in the subject matter.
+                        In general, I have a strong inclination to become deeply interested and engrossed in things. Once such interest is sparked, it doesn&apos;t leave me in peace until I have achieved a profound understanding and gained immersive experience in the subject matter.
                         This is exactly what happened with journalism in my life. I spent 10 years in that field, and for six of those years, I worked as the head of the news department in a nationwide newspaper, magazine, and website. The same occurred with traveling. I spent 3 years continuously traveling across 25 countries.
-                        Now, the same is about to happen with the IT field. Currently, I am in the early stages of my journey, having completed a seven-month bootcamp in Full Stack Development, and I am eager to progress further.
-
+                        Now, the same is about to happen with the IT field. Currently, I am 2 years in IT - seven-month bootcamp in Full Stack Development and one year of commercial experience. And I am eager to progress further.
                     </p>
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg

@@ -23,7 +23,25 @@ const Backend = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Docker</h3>
+                            <h3 className="skills__name">MongoDB</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Postgres</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Neon DB</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Supabase DB</h3>
                         </div>
                     </div>
                 </div>
@@ -32,10 +50,21 @@ const Backend = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">MongoDB</h3>
+                            <h3 className="skills__name">Docker</h3>
                         </div>
                     </div>
-
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Strapi CMS</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Payload CMS</h3>
+                        </div>
+                    </div>
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>

@@ -31,6 +31,13 @@ const Frontend = () => {
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
+                            <h3 className="skills__name">Tailwind</h3>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
                             <h3 className="skills__name">JavaScript</h3>
                         </div>
                     </div>
@@ -46,6 +53,12 @@ const Frontend = () => {
                         <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">Next.js</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">TypeScript</h3>
                         </div>
                     </div>
                 </div>
@@ -76,6 +89,31 @@ const Frontend = () => {
                         <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">React Native</h3>
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Clerk Auth</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">OpenAI</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Paddle</h3>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">LiqPay</h3>
                         </div>
                     </div>
 

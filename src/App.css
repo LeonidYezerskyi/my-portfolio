@@ -32,6 +32,7 @@
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
+  --font-bold: 700;
 
   /*========== Margenes Bottom ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -154,6 +155,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: background-color 0.5s ease;
 }
 
 .button:hover {

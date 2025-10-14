@@ -1,11 +1,11 @@
 .about__container {
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  column-gap: 4rem;
+  grid-template-columns: 1fr 2fr;
+  align-items: top;
+  column-gap: 2rem;
 }
 
 .about__img {
-  /* width: 350px; */
+  width: 300px;
   border-radius: 1.5rem;
   justify-self: center;
 }
@@ -40,8 +40,11 @@
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
   margin-bottom: var(--mb-2-5);
+}
+
+.about__textsubtitle {
+  font-weight: var(--font-bold);
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -60,7 +63,7 @@
     padding: 0.75em 0.5rem;
   }
   .about__data {
-    text-align: center;
+    text-align: left;
   }
 
   .about__info {
@@ -68,7 +71,6 @@
   }
 
   .about__description {
-    padding: 0 5rem;
     margin-bottom: 2rem;
   }
 }

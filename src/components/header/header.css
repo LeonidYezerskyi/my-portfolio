@@ -35,6 +35,27 @@
   font-weight: var(--font-medium);
   transition: 0.3s;
   height: 20px;
+  position: relative;
+}
+
+/* .nav__link:hover {
+  border-bottom: 1px solid var(--title-color-dark);
+} */
+
+/* Замінити на це: */
+.nav__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--title-color-dark);
+  transition: width 0.3s ease;
+}
+
+.nav__link:hover::after {
+  width: 100%;
 }
 
 .nav__icon,
@@ -48,9 +69,9 @@
   color: var(--title-color-dark);
 }
 
-.nav__link:hover {
+/* .nav__link:hover {
   border-bottom: 1px solid var(--title-color-dark);
-}
+} */
 
 /*Change background header*/
 .scroll-header {

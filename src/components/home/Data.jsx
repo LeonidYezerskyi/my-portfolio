@@ -54,11 +54,10 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Fullstack Developer</h3>
-            <p className="home__description">I am a Junior JavaScript Full Stack Developer based in Kyiv, Ukraine. I like to work for hours and hours and to focus on different tasks. I always
-                say - it is important to challenge yourself, and to enjoy it no matter how difficult it can be.
-                Therefore, I am up for any challenge.
-                Let's creacte a better world together.</p>
-
+            <p className="home__description">I am a results-driven Fullstack JavaScript Developer with 2 years of commercial experience, based in Kyiv, Ukraine.
+                My professional approach is built on dedication and ownership. I am energized by deep-focus work, prioritizing well-engineered, scalable solutions that not only elevate the user experience but also optimize core business logic.
+                I strongly believe that real growth means always challenging yourself and enjoying the ride, no matter how tough it gets. I'm ready for any big challenge.
+                Let’s partner to solve complex problems and build robust digital foundations for a better world.</p>
             <a href="#contact" className="button button--flex">
                 Say Hello
                 <svg

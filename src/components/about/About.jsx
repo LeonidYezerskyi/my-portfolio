@@ -6,18 +6,22 @@ import CV from "../../assets/CV_LeonidYezerskyi.pdf"
 const About = () => {
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">About me</h2>
+            <h2 className="section__title">From Newsroom to Fullstack</h2>
             <span className="section__subtitle">My introduction</span>
             <div className="about__container container grid">
                 <img src={AboutImg} alt="" className="about__img" />
                 <div className="about__data">
                     {/* <Info /> */}
-                    <p className="about__description">I am a Junior Full Stack Developer. The main technology stack that I specialize in includes: HTML, CSS, JavaScript, React, Redux, Next.js, Tailwind, TypeScript, Node.js/Express,
-                        MongoDB, PostgreSQL, Neon DB, Supabase, Strapi, Payload CMS, React Native, Clerk Auth, OpenAI, Paddle, LiqPay.
-                        I have an experience working on both individual and team projects as a full stack developer. <br />
-                        In general, I have a strong inclination to become deeply interested and engrossed in things. Once such interest is sparked, it doesn&apos;t leave me in peace until I have achieved a profound understanding and gained immersive experience in the subject matter.
-                        This is exactly what happened with journalism in my life. I spent 10 years in that field, and for six of those years, I worked as the head of the news department in a nationwide newspaper, magazine, and website. The same occurred with traveling. I spent 3 years continuously traveling across 25 countries.
-                        Now, the same is about to happen with the IT field. Currently, I am 2 years in IT - seven-month bootcamp in Full Stack Development and one year of commercial experience. And I am eager to progress further.
+                    <p className="about__description">
+                        I am a passionate Fullstack JavaScript Developer with 2 years of commercial experience, based in Kyiv, Ukraine.<br />
+                        My professional journey is defined by one core principle: deep immersion and mastery. When I commit to a field, I am driven by an intense curiosity that demands a profound understanding and hands-on experience.<br />
+                        This philosophy shaped my previous career: I spent 10 years in journalism, culminating in six years as the Head of the National and Capital News Department for a major nationwide media group. This same drive fueled my desire for exploration, leading me to spend 3 continuous years traveling across 25 countries.<br />
+                        Today, that same intense focus is dedicated entirely to the IT landscape. I possess a robust 2-year commercial background following specialized training, and I am eager to progress further. I excel at delivering well-engineered, scalable solutions that transition seamlessly from idea to execution.<br />
+                        I have a solid understanding of a broad technology stack, including:<br />
+                        <span className="about__textsubtitle">Front-end:</span> HTML, CSS, JavaScript, React, Redux, Next.js, Tailwind, TypeScript, Tiptap.<br />
+                        <span className="about__textsubtitle">Back-end & Databases:</span> Node.js/Express, MongoDB, PostgreSQL, Neon DB, Supabase, Strapi, Payload CMS.<br />
+                        <span className="about__textsubtitle">Mobile & Integrations:</span> React Native, Clerk Auth, OpenAI, Paddle, LiqPay.<br />
+                        <span className="about__textsubtitle">My goal is simple:</span> to leverage my dedication and unique background to solve complex problems and contribute to high-impact projects.
                     </p>
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg

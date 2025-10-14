@@ -9,11 +9,16 @@ import Qualification from './components/qualification/Qualification'
 import ScrollUp from './components/scrollup/ScrollUp'
 import Skills from './components/skills/Skills'
 import Work from './components/work/Work'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
+// В компоненті
 
 function App() {
 
   return (
     <>
+      <ToastContainer />
       <Header />
 
       <main className="main">

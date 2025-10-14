@@ -13,6 +13,7 @@
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .work__item:hover {
@@ -33,6 +34,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  transition: border-color 0.3s ease;
 }
 
 .work__card:hover {
@@ -64,6 +66,7 @@
   border-radius: 0.5rem;
   padding: 0 10px;
   background-color: var(--body-color);
+  transition: border 0.3s ease;
 }
 
 .work__button-container:hover {

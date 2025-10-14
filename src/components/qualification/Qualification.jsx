@@ -10,8 +10,8 @@ const Qualification = () => {
 
     return (
         <section className="qualification section">
-            <h2 className="section__title">Qualification</h2>
-            <span className="section__subtitle">My personal journey</span>
+            <h2 className="section__title">Qualification & Experience</h2>
+            <span className="section__subtitle">Professional journey</span>
 
             <div className="qualification__containe container">
                 <div className="qualification__tabs">
@@ -88,6 +88,21 @@ const Qualification = () => {
                         : "qualification__content"}>
 
                         <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Frontend Developer</h3>
+                                <span className="qualification__subtitle">Compeers AI Corporation (Delaware, United States)</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> 11.2024 - Present (full-time)
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
                             <div></div>
 
                             <div>
@@ -96,20 +111,20 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Full Stack Developer</h3>
+                                <h3 className="qualification__title">Fullstack Developer</h3>
                                 <span className="qualification__subtitle">Mavens Tech Lab INC (Miami, Florida, United States)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 02.2024 - Present (part time job)
+                                    <i className="uil uil-calendar-alt"></i> 02.2024 - 11.2024 (part-time)
                                 </div>
                             </div>
                         </div>
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Full Stack Developer</h3>
+                                <h3 className="qualification__title">Fullstack Developer</h3>
                                 <span className="qualification__subtitle">Freelance (Kyiv, Ukraine)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 01.04.2023 - Present
+                                    <i className="uil uil-calendar-alt"></i> 04.2023 - Present
                                 </div>
                             </div>
 
@@ -131,7 +146,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Merchandiser</h3>
                                 <span className="qualification__subtitle">“Heinemann Duty Free” (Germany), location of work - "Kyiv" International Airport (Kyiv, Ukraine)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 20.05.2021-24.02.2022
+                                    <i className="uil uil-calendar-alt"></i> 05.2021-02.2022
                                 </div>
                             </div>
                         </div>
@@ -142,7 +157,7 @@ const Qualification = () => {
                                 <h3 className="qualification__title">Traveler</h3>
                                 <span className="qualification__subtitle">Self employed (25 countries)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 7.10.2016 – 20.12.2019
+                                    <i className="uil uil-calendar-alt"></i> 10.2016 – 12.2019
                                 </div>
                             </div>
 
@@ -162,10 +177,10 @@ const Qualification = () => {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Editor, chief of “news/capital” department</h3>
+                                <h3 className="qualification__title">Editor, Head of the National and Capital News Department</h3>
                                 <span className="qualification__subtitle">Newspaper “Gazeta po-ukrainsky”, magazine “Kraina”, site “gazeta.ua” (Kyiv, Ukraine)</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 1.04.2010 – 15.04.2016
+                                    <i className="uil uil-calendar-alt"></i> 04.2010 – 04.2016
                                 </div>
                             </div>
                         </div>

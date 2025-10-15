@@ -26,7 +26,7 @@ const Contact = () => {
                         <div className="contact__card">
                             <i className="bx bxl-telegram contact__card-icon"></i>
                             <h3 className="contact__card-title">Telegram</h3>
-                            <span className="contact__card-data">+38(097)989-80-12</span>
+                            <span className="contact__card-data">@LeonidYezerskyi</span>
                             <button className="contact__button-container">
                                 <a href="https://t.me/LeonidYezerskyi" className="contact__button" target="blank" rel="noreferrer">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                             </button>

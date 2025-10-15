@@ -22,11 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: row; */
   gap: 1rem;
-  /* display: grid;
-  row-gap: 1rem;
-  grid-template-columns: 300px; */
 }
 
 .contact__card {
@@ -57,8 +53,29 @@
 
 .contact__card-icon {
   font-size: 2rem;
-  color: var(--title-color);
+  /* color: var(--title-color); */
   margin-bottom: var(--mb-0-25);
+}
+
+/* Брендові кольори для іконок та назв */
+.contact__card:nth-child(1) .contact__card-icon,
+.contact__card:nth-child(1) .contact__card-title {
+  color: #ea4335; /* Gmail/Email червоний */
+}
+
+.contact__card:nth-child(2) .contact__card-icon,
+.contact__card:nth-child(2) .contact__card-title {
+  color: #0088cc; /* Telegram синій */
+}
+
+.contact__card:nth-child(3) .contact__card-icon,
+.contact__card:nth-child(3) .contact__card-title {
+  color: #25d366; /* WhatsApp зелений */
+}
+
+.contact__card:nth-child(4) .contact__card-icon,
+.contact__card:nth-child(4) .contact__card-title {
+  color: #0077b5; /* LinkedIn синій */
 }
 
 .contact__card-title,

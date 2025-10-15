@@ -38,11 +38,7 @@
   position: relative;
 }
 
-/* .nav__link:hover {
-  border-bottom: 1px solid var(--title-color-dark);
-} */
-
-/* Замінити на це: */
+/* Підкреслення для десктопної версії */
 .nav__link::after {
   content: "";
   position: absolute;
@@ -69,10 +65,6 @@
   color: var(--title-color-dark);
 }
 
-/* .nav__link:hover {
-  border-bottom: 1px solid var(--title-color-dark);
-} */
-
 /*Change background header*/
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
@@ -90,8 +82,9 @@
     height: var(--header-height);
   }
 
-  .nav__link:hover {
-    border-bottom: none;
+  /* Видаляємо підкреслення для мобільної версії */
+  .nav__link::after {
+    display: none;
   }
 
   .nav__menu {
